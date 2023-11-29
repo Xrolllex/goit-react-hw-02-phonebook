@@ -27,7 +27,7 @@ class Form extends Component {
         <label>
           Name
           <input
-            className="input1"
+            className="name-input"
             type="text"
             name="name"
             pattern="^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"
@@ -41,7 +41,7 @@ class Form extends Component {
         <label>
           Number
           <input
-            className="input2"
+            className="number-input"
             type="tel"
             name="number"
             pattern="\+?\d{1,4}?[-.\s]?\(?\d{1,3}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}"

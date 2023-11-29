@@ -3,6 +3,7 @@ import { nanoid } from 'nanoid';
 import Filter from './Filter';
 import Form from './Form';
 import List from './List';
+import './Form.css';
 
 class App extends Component {
   state = {
